@@ -1,0 +1,18 @@
+
+{
+	"language": "node",
+	"code": "function gcd(a, b){var r;while ((a % b) > 0){r = a % b;a = b;b = r;}console.log(b)}"
+}
+
+{
+	"language": "java",
+	"code": "import java.util.*;\npublic class Solution{\npublic static void main(String[] args){\nScanner sc=new Scanner(System.in);\nint n1 = sc.nextInt();\nint n2=sc.nextInt();\nint gcd=1;\nfor(int i = 1; i <= n1 && i <= n2; ++i)\n{\nif(n1 % i==0 && n2 % i==0)\ngcd = i;\n}\nSystem.out.println(gcd);\n}}"
+}
+
+
+{
+	"language": "python",
+	"code": "def gcd(x, y):\n  while(y):\n    x, y = y, x % y\n  print(x)"
+}
+
+Working fine tested

@@ -1,0 +1,6 @@
+{
+	"language": "c++",
+	"code": "#include <iostream>\nusing namespace std;\nint main()\n{\nint n1, n2;\ncin >> n1 >> n2;\nwhile(n1 != n2)\n{\nif(n1 > n2)\nn1 -= n2;\nelse\nn2 -= n1;\n}\ncout << n1;\nreturn 0;\n}"
+}
+
+gcd

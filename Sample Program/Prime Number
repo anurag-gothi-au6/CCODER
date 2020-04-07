@@ -1,0 +1,16 @@
+{
+	"language": "python",
+	"code": "def isPrime(n) :\n  if (n <= 1) :\n    print('No')\n    return\n  if (n <= 3) :\n    print('Yes')\n    return\n  if (n % 2 == 0 or n % 3 == 0) :\n    print('No')\n    return\n  i = 5\n  while(i * i <= n) :\n    if (n % i == 0 or n % (i + 2) == 0) :\n      print('No')\n      return\n    i = i + 6\n  print('Yes')\n  return"
+}
+
+{
+	"language": "node",
+	"code": "function isPrime(n) {\n var i, flag = true;\n n = parseInt(n)\n for(i = 2; i <= n - 1; i++) \nif (n % i == 0) {\n flag = false;\n break;\n }\n if (flag == true){\nconsole.log('Yes')\n return }\n else{\n console.log('No')\n return\n }\n}"
+}
+
+{
+	"language": "java",
+	"code": "import java.util.Scanner;\npublic class isPrime\n{\n   public static void main(String args[])\n   {\t\t\n\tint temp;\n\tboolean isPrime=true;\n\tScanner scan= new Scanner(System.in);\n\tint num=scan.nextInt();\n        scan.close();\n\tfor(int i=2;i<=num/2;i++)\n\t{\n           temp=num%i;\n\t   if(temp==0)\n\t   {\n\t      isPrime=false;\n\t      break;\n\t   }\n\t}\n\tif(isPrime)\n\t   System.out.println(\"Yes\");\n\telse\n\t   System.out.println(\"No\");\n   }\n}"
+}
+
+working fine tested
