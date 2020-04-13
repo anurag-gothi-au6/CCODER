@@ -1,0 +1,10 @@
+
+
+
+POST http://ccoder.herokuapp.com/submit/GCD%20of%20two%20numbers/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVlOTA3N2IyNWJiNTBjMDAxNzA1ZTE4ZCIsImlhdCI6MTU4NjYyOTcyNCwiZXhwIjoxNTg2NzE2MTI0fQ.anmEE81mBGNyO_WW_KC7V4Pkpl5nRA0UhhPsmWF-mHg
+Content-Type: application/json
+
+{
+    "language": "node",
+   "code": "function gcd(a,b){console.log(14)}"
+}
