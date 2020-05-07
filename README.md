@@ -1,12 +1,10 @@
 # CCoder
 
-Project done by _ANURAG_ and _TEJA_
-
-Under Supervision of _Sundeep Charan Ramkumar_
-
-And Mentored by _Anuj Rathore_ 
+Project done by _ANURAG_
 
 Deployed URL: https://ccoder.herokuapp.com
+
+Details of All CRUD operations: https://documenter.getpostman.com/view/10250669/Szf24q2v?version=latest
 
 # Table Of Content
 - [CCoder](#ccoder)
